@@ -1,10 +1,10 @@
 /*
     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-    $$$$$$$$$$$$$$    ASTAR.C VERSION 1.0    $$$$$$$$$$$$$$$$
+    $$$$$$$$$$$$$$    ALGORITHMS.C VERSION 1.0    $$$$$$$$$$$$$$$$
     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
     - Usage:
-        >> Through the header file "astar.h"
+        >> Through the header file "algorithms.h"
 
     - Comments:
         >> 
