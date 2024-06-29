@@ -11,7 +11,7 @@
         >> Intersection point computation: https://stackoverflow.com/questions/563198/how-do-you-detect-where-two-line-segments-intersect/1201356#1201356
         >> Two edges can intersect if and only if they belong to the same shiptype, different path and have not been joined before.
             Thus, it is possible to append new data and compute again the intersections without making redundant comprovations.
-        >> The new edge takes the slowest speed.
+        >> The new edge takes the greatest speed.
         >> The intersections type 1 are implemented once they are detected. 
     
     - Further development:
