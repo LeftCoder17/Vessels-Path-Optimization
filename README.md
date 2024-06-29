@@ -1,6 +1,10 @@
 # Overview
 This repository contains various C libraries and programs developed for my master thesis. The thesis focuses on creating a graph from vessel data through a series of steps. Each step is encapsulated in its own program and library, designed to handle specific tasks efficiently. It has been decided to create the graph in different steps because of the long time required to compute each one of the step for large amounts of data. In contrast, the intermedium graphs generated must be stored and open. However, the fraction of time used to do these actions compareed to the rest of the time needed is minimal, so it is not considered an issue.
 
+The data cannot be provided, but here is an example of how it does look like:
+
+<img src="data_example.png" alt="Invented data" width="1200">
+
 ## Table of Contents
 1. [Main Programs](#1-main-programs)
 
