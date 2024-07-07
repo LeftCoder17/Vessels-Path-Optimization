@@ -88,7 +88,7 @@ double heuristic_cosines(int speed, double initial_lat, double initial_lon, doub
 
     R = 6371; // km
     dist = acos(sin(initial_lat * M_PI / 180) * sin(final_lat * M_PI / 180) +
-                cos(initial_lon * M_PI / 180) * cos(final_lon * M_PI / 180) * cos((final_lon - initial_lon) * M_PI / 180)
+                cos(initial_lat * M_PI / 180) * cos(final_lat * M_PI / 180) * cos((final_lon - initial_lon) * M_PI / 180)
                 ) * R;
     speed_kms = speed * 0.514444; // kn to km/s
     total_time = dist / speed_kms;
